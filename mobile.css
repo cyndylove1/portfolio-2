@@ -1,0 +1,136 @@
+
+
+@media screen and (max-width:1200px) {
+
+    .nav-mobile{
+        display: flex;
+        padding: 0 30px;
+        
+    }
+    .first-div-content{
+        display: none;
+
+    }
+    .mobilelinks-container{
+        height: 80%;
+
+    }
+    .first-div{
+        height: 800px;
+        /* width:100%; */
+    }
+    .logo-1{
+        display: none;
+    }
+    .text-img{
+        display: flex;
+        height: 400px;
+        width: 80%;
+        margin-left:50px;        
+        flex-direction: column-reverse;
+        
+    }
+     
+    
+     .text{
+        display: flex;
+        /* justify-content:center; */
+        /* align-content:center; */
+        flex-direction: column-reverse;
+        /* padding: 30px 50px;  */
+
+    }
+    .text-content{
+        width: 120%;
+        height: 70px;
+        margin: 0 20px;
+    }
+    .text-content h1{
+        padding-right: 90px;
+    }
+    .col img{
+        width:200%;
+        flex-direction:column;
+        /* flex-wrap:wrap;  */
+    }
+
+    .content{
+        background: transparent;
+        padding-right:70px;
+        color:black;
+    }
+
+        section{
+            padding: 80px 3%;
+            transition: 2s;
+        }
+        .contact-form h1{
+            font-size: 60px;
+        }
+        .contact-form p{
+            margin-bottom: 3rem;
+        }
+        
+    
+        .contact{
+            grid-gap:2rem;
+            transition:.3s;
+            grid-template-columns:1fr;
+        }
+        .contact-form{
+            order:2;
+        }
+        .contact-img img{
+            max-width:100%;
+            width:100%;
+            height:auto;
+            text-align:center;
+            margin-bottom:30px;
+        }
+        .contact-me{
+            flex-direction: column;
+            padding: 0 30px;
+        }
+        .overlay{
+            height: 420px;
+            width: 100%;
+        
+        }
+        .overlay-title{
+            margin-right: 40px;
+            /* width: 50%; */
+            
+        }
+        .overlay-description{
+            padding-right:  30px;
+            /* width: 30%; */
+            flex-direction: column;
+            
+        }
+    
+   
+    
+    
+    
+}
+@media screen and (max-width:1000px) {
+    .row{
+        width: 250%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-col-1{
+        width: 120%;
+        height: 70%;
+        flex-direction: column-reverse;
+        margin-right:30px;
+    }
+    .about-col-1 img{
+        width: 120%;
+    }
+    .container{
+        width: 100%;
+    }
+    
+}
