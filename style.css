@@ -149,6 +149,7 @@ body {
 
 
 /*first section ends here*/
+
 /* about section starts here */
 #about{
     /* border: 2px solid red; */
@@ -356,6 +357,8 @@ body {
 }
 
 
+/* nav-section ends here */
+
 /* second section starts here */
 section{
     background: #101010;
@@ -439,6 +442,7 @@ section{
     opacity: 1;
 }
 /* second section ends here */
+
 /* third section starts here */
 .inner{
     padding-top: 20px;
@@ -495,7 +499,7 @@ section{
 
 /* third section ends here */
 
-/* footer section starts here */
+/* conctact-me section starts here */
 .contact-me{
     width: 100%;
     height: 290px;
@@ -527,6 +531,10 @@ section{
     border: 2px solid #ff004f;
     cursor: pointer;
 }
+/* contact-me section ends here */
+
+
+/* contact section starts here */
  
 
 
@@ -604,6 +612,9 @@ span{
     background: transparent;
     transform: scale(0.9);
 }
+/* contact section ends here */
+
+
 /* footer section starts here */
 footer{
     position: relative;
