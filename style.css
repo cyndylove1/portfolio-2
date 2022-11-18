@@ -316,7 +316,9 @@ body {
     transform: translateX(0);
 }
 
-
+.mobilelink-content ul{
+    padding-top: 40px;
+}
 
 .mobilelink-content a {
     display: block;
@@ -364,7 +366,12 @@ section{
     background: #101010;
 
 }
+#work{
+    /* border: 1px solid green; */
+    padding: 0;
+}
 .heading{
+    /* border: 1px solid tomato; */
     text-align: center;
     
     
@@ -374,35 +381,32 @@ section{
     font-size :35px;
 }
 .porfolio-content{
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
     align-items: center;
-    margin-top: 5rem;
+    padding-top: 5rem;
     text-align: center;
     cursor: pointer;
 }
 .col{
-    width: 100%;
-    position: relative;
-    height: 500px;
-    /* margin-left: 30px; */
-
+    /* border: 1px solid blue; */
+    width: 40%;
 }
 .col img{
-    height: 400px;
-    width: 120%;
-    /* object-fit: cover; */
-    border-radius: 12px;
+    width: 100%;
 }
 .layer{
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+}
+
+/* .layer{
     background:transparent;
-    height:80%;
-    width: 120%;
-    position: absolute;
-    top:0;
-    left: 0;
     border-radius: 12px;
     transition: all.40s;
 }
@@ -440,7 +444,7 @@ section{
 .layer:hover h5{
     bottom: 48%;
     opacity: 1;
-}
+} */
 /* second section ends here */
 
 /* third section starts here */
