@@ -368,7 +368,8 @@ section{
 }
 #work{
     /* border: 1px solid green; */
-    padding: 0;
+    padding: 40px 0;
+
 }
 .heading{
     /* border: 1px solid tomato; */
@@ -386,7 +387,7 @@ section{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 90%;
-    margin: 0 auto;
+    margin: 20px auto;
     align-items: center;
     padding-top: 5rem;
     text-align: center;
