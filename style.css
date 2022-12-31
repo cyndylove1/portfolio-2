@@ -151,56 +151,54 @@ body {
 /*first section ends here*/
 
 /* about section starts here */
-#about{
+.about{
     /* border: 2px solid red; */
     background:#101010;
-    padding:80px 0;
-    color:#fff;
+    /* padding:80px 0; */
+    width: 100%;
+    /* color:#fff; */
     
 }
-
-.row{
-    /* border: 3px solid blue; */
-    display:flex;
-    /* margin: 40px 0; */
-    width: 250%;
-    /* padding: 30px 0; */
-    height: 400px;
-    justify-content:space-between;
-    flex-wrap:wrap;
+.container-about{
+    padding: 30px 100px;
 }
-.about-col-1{
-    flex-basis:35%;
-
-    /* height:50vh; */
+article{
+    display: block;
+    align-items: center;
+    text-align: center;
 }
-.about-col-1 img{
-    height:90%;
-    width:100%;
-    margin-left:30px;
-    background:rgb(26, 25, 25);
-    border-radius:15px;
-}
-.about-col-2{
-    flex-basis: 60%;
-}
-.sub-title{
+article h1{
     font-size: 40px;
-    font-weight: 600;
-    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#fff;
 }
-.about-text{
-    padding:20px 0;
-    
+article h1:after{
+    content: "";
+    height: 5px;
+    width: 200px;
+    background: #ff004f;
+    display: block;
+    margin: auto;
+}
+article img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
 }
 .about-content{
     padding:30px 50px;
+    line-height:1.8;
+    width: 100%;
+    text-align: center;
     color:#fac1d3;
-    line-height:1.5;
 }
 .about-btn{
     padding:10px 20px;
     border-radius:10px;
+    text-decoration: none;
     border:none;
     color:#fff;
     background:#ff004f;
@@ -383,31 +381,20 @@ section{
     text-align: center;
     cursor: pointer;
 }
-.col{
-    width: 100%;
-    position: relative;
-    height: 500px;
-    /* margin-left: 30px; */
 
-}
-.col img{
-    height: 400px;
-    width: 120%;
-    /* object-fit: cover; */
-    border-radius: 12px;
-}
+
 .layer{
     background:transparent;
     height:80%;
     width: 120%;
-    position: absolute;
+    /* position: absolute; */
     top:0;
     left: 0;
     border-radius: 12px;
     transition: all.40s;
 }
 .layer:hover{
-    background:#f0c7d4;
+    /* background:#f0c7d4; */
 }
 .layer h3{
     position: absolute;
@@ -421,10 +408,10 @@ section{
     opacity: 0;
     transition: all .40s;
 }
-.layer:hover h3{
+/* .layer:hover h3{
     bottom: 52%;
     opacity: 1;
-}
+} */
 .layer h5{
     position: absolute;
     width: 100%;
@@ -539,7 +526,7 @@ section{
 
 
 section{
-    padding: 40px 15%;
+    padding: 40px 0;
 }
 .contact{
     background: #101010;
