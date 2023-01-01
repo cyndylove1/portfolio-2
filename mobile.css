@@ -118,11 +118,15 @@
         flex-direction:column;
         /* margin-left:5px; */
     }
-    .footer-container .info ul li a{
-        margin:5px 4px;
+    .footer-container .info ul li {
+        margin:5px;
+        margin-left: 3px;
     }
     .footer-container .follow a{
-        margin-left: 5px;
+        padding: 2px;
+    }
+    .footer-container .info a{
+        padding: 3px;
     }
     .footer-container hr{
         width:100%;
