@@ -17,23 +17,39 @@
 
     
     <!--hero section-->
-        <nav>
+        <header>
             <a href="#" class="brand">Cyndy</a>
-            <ul class="nav-list">
-                <div class="nav-item">
-                    <!-- <div class="nav-close-btn"></div> -->
-                    <a href="#main">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#skill-section">Skills</a>
-                    <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </ul>
-    
+
+            <div class="hamburger">
+                    <div  class="line"></div>
+                    <div  class="line"></div>
+                    <div  class="line"></div>
+            </div>
+                <nav class="nav-bar">
+                    <ul>
+                    <li><a href="#main" class="active">Home</a></li>  
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skill-section">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+                    
+                    
+
+                </nav>  
         
 
-        </nav>
+        </header>
+
+        <script>
+         hamburger = document.querySelector(".hamburger");
+         hamburger.onclick = function() {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+        </script>
         
 
     <section class="main" id="main">
@@ -43,7 +59,7 @@
                 <h3>Web Developer</h3>
                 <h3>Graphic Designer</h3>
             </div>
-            <a href="#"class="btn">Download Cv</a>
+            <a href="https:// eu.docworkspace.com/d/sICfI7vurAYjy950G?sa=06&st=0t"class="btn">Download Cv</a>
             <div class="media-icons">
                 <a href="https://www.linkedin.com/in/cyndylove1" target="_blank"><i class="fab fa-linkedin"></i></a>  
                 <a href=" https://github.com/cyndylove1" target="_blank"><i class="fab fa-github"></i></a>  
@@ -61,13 +77,13 @@
        <div class="content-img">
         <div class="column col-left">
             <div class="img-card">
-                <img src="./img/IMG-20200926-WA0011.jpg" alt="">
+                <img src="./img/photo.png" alt="">
             </div>
         </div>
         <div class="column col-right">
-            <h2 class="content-title">Hey! I'm Cynthia Nweke</h2>
+            <h2 class="content-title">Hello! I'm Cynthia Nweke</h2>
             <p class="paragraph-text">
-                Since beginining of my journery as a front-end developer over 5 years ago,I've done remote works for agencies for both business and consumers use.I craft user interfaces using modern frontend web,I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations,technologies.<br/>my Expertise is in the area of my resposive design.With every line of code,I strive to make the web a beautiful place. 
+                I am a front-end developer.I can provide clean code and pixel perfect design.I am proficient in HTML,CSS and intermediate with javascript.I also make the website more & more interactive with web animations,technologies.over the past two(2) years,my Expertise is in the area of my resposive design.With every line of code,I strive to make the web a beautiful place. 
             </p>
             <a href="#" class="btn">Download CV</a>
         </div>

@@ -3,17 +3,15 @@
 @media (max-width:1040px){
 
     /*---hero section*/
-    nav{
+    header{
         padding: 12px 40px;
         /* display: none; */
-        
-
     }
-    nav.sticky{
+    .nav-bar{
+        /* display: none; */
+    }
+    header.sticky{
         padding:10px 20px;
-    }
-    nav .nav-item{
-        display:none;
     }
     .btn{
         font-size: 1.3em;
@@ -21,6 +19,57 @@
     .main .content-main{
         text-align: center;
     }
+    /*---menu container--*/
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        /* left: 30px; */
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        margin: 6px 0;
+
+    }
+    .nav-bar{
+        height:0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #120683;
+        transition:0.2s;
+        overflow:hidden;
+    }
+    .nav-bar.active{
+        height: 450px;
+
+    }
+    .nav-bar ul{
+        display:block;
+        width:fit-content;
+        margin:50px auto 0 auto;
+        text-align:center;
+        transition:0.5s;
+        opacity: 0;
+        /* overflow:hidden; */
+    }
+    .nav-bar.active ul{
+        opacity:1;
+    }
+    .nav-bar ul li a{
+        margin-bottom:12px;
+        /* color: red; */
+    }
+    .nav-bar ul li a:hover{
+        color: black;
+        transition: 1s;
+        transform: scale(1.2);
+    }
+
+    
 
     
 
@@ -39,7 +88,7 @@
         width: 100%;
     }
     .about .content-img .col-right .paragraph-text{
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .about .content-img .col-right{
         margin: 40px 0;
