@@ -117,6 +117,14 @@
     .services .content-service .card .service-icon{
         padding: 15px 0;
     }
+    
+    .services .content-service .card .service-icon h3{
+        font-size: 15px;
+    }
+    .services .content-service .card .service-icon p{
+        padding: 10px 0;
+        font-size: 18px;
+    }
     .services .content-service .card .info h2{
         font-size: 25px;
     }
