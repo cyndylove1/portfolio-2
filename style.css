@@ -246,7 +246,7 @@ body{
     top: 0;
     left: 0;
     width: 80%;
-    background: #000;
+    background: #6556f0;
     height: 380px;
     object-fit: cover;
     border-radius: 10px;
@@ -302,16 +302,23 @@ body{
     box-shadow: 0 5px 25px rgba(1 1 1 / 15);
     border-radius: 10px;
 }
+.services .content-service .card:hover{
+    color: white;
+}
 .services .content-service .card .info h2{
     font-size: 25px;
+    color: #120683;
     padding: 50px 30px;
+}
+.services .content-service .card .info:hover h2{
+    color: white;
 }
 .services .content-service .card .info p{
     font-size: 20px;
 }
 .button{
     color: #fff;
-    background: #120683;
+    background: black;
     font-size: 1em;
     font-weight: 600;
     /* display: inline-block; */
@@ -326,7 +333,7 @@ body{
 
     
 .services .content-service .card:hover{
-    background: #000;
+    background: #120683;
     color: #fff;
     transition: all 1s ease;
 }
@@ -335,6 +342,17 @@ body{
     font-size: 2em;
     text-align: center;
     transition: transform 0.5s ease;
+}
+.services .content-service .card .service-icon h3{
+    font-size:20px;
+    padding: 10px 0;
+    
+}
+.services .content-service .card .service-icon p{
+    font-size:20px;
+    padding: 20px 0;
+    /* color: #000; */
+
 }
 .services .content-service .card .service-icon:hover{
     color: #fff;
@@ -346,7 +364,7 @@ body{
     text-align: center;
     font-size: 23px;
 }
-.services .content-service .card .info h3{
+/* .services .content-service .card .info h3{
     color: #120683;
     font-size: 1em;
     font-weight: 700;
@@ -354,7 +372,7 @@ body{
 }
 .services .content-service .card .info h3:hover{
     color: #fff;
-}
+} */
 
 
 
