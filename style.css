@@ -308,7 +308,7 @@ body{
 .services .content-service .card .info h2{
     font-size: 25px;
     color: #120683;
-    padding: 50px 30px;
+    padding: 30px 30px;
 }
 .services .content-service .card .info:hover h2{
     color: white;
@@ -322,8 +322,8 @@ body{
     font-size: 1em;
     font-weight: 600;
     /* display: inline-block; */
-    padding: 10px 20px;
-    margin: 15px 0;
+    padding: 5px 20px;
+    /* margin: 5px 0; */
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
